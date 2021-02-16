@@ -7,6 +7,7 @@ function Sobre(){
             <Link href="/">
                 <a>Home</a>
             </Link>
+            <br/>
             <Link href="/tempo">
                 <a>Tempo</a>
             </Link>
@@ -16,15 +17,15 @@ function Sobre(){
 }
 
 function Contador() {
-    const [contador, setContador] = useState(1);
+    const [Contador, setContador] = useState(1);
 
     function adicionarContador(){
-        setContador(contador + 1);
+        setContador(Contador + 1);
     }
 
     return (
         <div>
-            <div>{contador}</div>
+            <div>{Contador}</div>
             <button onClick={adicionarContador}>Adicionar</button>
         </div>
     )

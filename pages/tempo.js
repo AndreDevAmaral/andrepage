@@ -11,8 +11,9 @@ function Tempo(props){
             <Link href="/">
                 <a>Home</a>
             </Link>
-            <Link href="/tempo">
-                <a>Tempo</a>
+            <br/>
+            <Link href="/contador">
+                <a>Contador</a>
             </Link>
             <div>{dynamicDateString} (dinâmico)</div>
             <div>{props.staticDateString} (estático)</div>

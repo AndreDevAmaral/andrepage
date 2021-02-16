@@ -7,6 +7,7 @@ function Home(){
             <Link href="/contador">
                 <a>Contador</a>
             </Link>
+            <br/>
             <Link href="/tempo">
                 <a>Tempo</a>
             </Link>
